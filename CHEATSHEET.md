@@ -12,7 +12,7 @@ but don't.
 
 Example:
 
-```
+```xml
 <defs>
   <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
     ...
@@ -22,7 +22,7 @@ Example:
 
 One can use gradients/filters for attributes using ``url(#id)``, e.g.:
 
-```
+```xml
 <rect ... style="fill: url(#gradient1);filter: url(#blur1);"/>
 ```
 
@@ -31,6 +31,7 @@ One can use gradients/filters for attributes using ``url(#id)``, e.g.:
 Helper functions in the SVG namespace can be used in most cases, e.g. overloads for drawing functions taking Colours as attributes.
 
 List of useful attributes:
+
 - stroke (value: hex (colour) or 'none')
 - fill (value: hex (colour) or 'none')
 - stroke-opacity (float)
@@ -43,6 +44,7 @@ List of useful attributes:
 - stroke-dashoffset (int, how far into the dash pattern the pattern should be started.)
 
 There are a number of attributes which text possesses:
+
 - text-anchor: 'start', 'middle' or 'end'.
 - letter-spacing and kerning
 - wordspacing
